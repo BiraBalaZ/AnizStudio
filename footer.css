@@ -1,0 +1,24 @@
+footer {
+    padding: 1px;background-image: linear-gradient(to top, #717171, #B1B1B1);
+    color: #343434;
+}
+
+footer > p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a {
+    color: #343434;
+    transition: .7s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}

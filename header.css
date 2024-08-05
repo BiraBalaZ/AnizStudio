@@ -1,0 +1,51 @@
+.background-image {
+    margin-top: -20px;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 475px;
+    background-image: url("assets/images/ambientes/sala2.png");
+    background-size: cover;
+    background-attachment: fixed;}
+
+.logo {
+    border-radius: 25%;
+}
+
+header nav {
+    text-align: center;
+}
+
+header h1 {
+    color: #343434;
+    font-size: xx-large;
+}
+
+header li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-weight: 800;
+}
+
+header li a {
+    text-decoration: none;
+    color: #343434;
+    transition: .7s;
+    
+    padding: 4px;
+    border-radius: 7%;
+    background-color: #FAFAFA;
+}
+
+header li a:hover {
+    color: #FAFAFA;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+
+    padding: 6px;
+    background-color: #343434;;
+}

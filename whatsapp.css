@@ -1,0 +1,30 @@
+/* 
+    TO WORK ADD IN HTML:
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <a href="https://api.whatsapp.com/send?phone=5511942359299" class="whatsapp-button" target="_blank" title="Contate-nos no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- FontAwesome para ícones -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+*/
+
+.whatsapp-button {
+    position: fixed; /* Posicionamento fixo na tela */
+    bottom: 20px; /* Distância da parte inferior da tela */
+    right: 20px; /* Distância da parte direita da tela */
+    width: 50px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    border-radius: 50%; /* Borda arredondada */
+    text-align: center; /* Alinhamento do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    cursor: pointer; /* Indicador de cursor ao passar o mouse */
+    z-index: 100; /* Posicionamento na frente de outros elementos */
+    transition: all 0.3s ease; /* Efeito de transição suave */
+}
+
+.whatsapp-button:hover {
+    box-shadow: 0 0 20px rgb(255, 153, 0);
+}
