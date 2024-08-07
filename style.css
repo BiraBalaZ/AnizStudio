@@ -47,7 +47,6 @@ article, h2 {
 
 article p {
     text-indent: 0;
-    margin-right: 20px;
 }
 
 mark {
@@ -102,6 +101,10 @@ mark {
 
 .polaroid:hover {
     width: 70%;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 /* hr */

@@ -5,12 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="whatsapp.css">
     <link rel="stylesheet" href="back-to-top.css">
     <title>Aniz Studio</title>
+    <style>
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-200px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(200px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Classe de animação */
+        .fade-in-left {
+            opacity: 0;
+            animation: fadeInLeft 1.5s forwards;
+        }
+
+        .fade-in-right {
+            opacity: 0;
+            animation: fadeInRight 1.5s forwards;
+        }
+    </style>
 </head>
 <body>
     <header class="background-image">
@@ -32,12 +68,12 @@
         </a>
 
         <div class="container">
-            <div class="container-text">
+            <div class="container-text fade-in-left">
                 <h2>Sobre mim</h2>
                 <p>Sou uma estudante de Arquitetura e Urbanismo com formação em Design de Interiores. Sempre fui muito criativa e curiosa, me encantei pela área da construção civil e desde então venho aprofundando cada vez mais meus conhecimentos sobre.</p>
                 <p>Tenho habilidades na elaboração de projetos de interiores e arquitetônicos, com foco em oferecer as melhores soluções para alcançar os melhores resultados. Além disso, tenho facilidade em compartilhar e transmitir ideias, bem como colaborar efetivamente com outros membros da equipe para alcançar objetivos comuns.</p>
             </div>
-            <div class="container-image">
+            <div class="container-image fade-in-right">
                 <a href="https://www.behance.net/gallery/195795929/Archviz-3D-Papelaria-Papellario" target="_blank">
                     <img src="assets/images/polaroid1.png" class="polaroid" alt="Papelaria Papellário">
                 </a>
@@ -45,28 +81,28 @@
         </div>
         <hr>
         <div class="container">
-            <div class="container-image">
+            <div class="container-image fade-in-left">
                 <a href="https://www.behance.net/gallery/199247923/ARCHVIZ-Living-Urban-Square" target="_blank">
                     <img src="assets/images/polaroid2.png" class="polaroid" alt="Livin Urban Square">
                 </a>
             </div>
-            <div class="container-text">
-                <h2>Feedbacks<br>★ ★ ★ ★ ★</h2>
-                <article>
-                    <p><q>You're the <mark>best</mark>!</q></p>
-                    <p><q>Dos 3 projetos que fiz com você, eu e meu marido amamos demais, tudo feito com muito carinho e dedicação, não tem nem palavras pra escrever o quão <mark>bem feito</mark> estava todos os projetos, exatamente idênticos aos ambiedntes e na versão decoradora e melhorada, fiquei encantada.</q></p>
-                    <p><q>Nossa gostei demais, nunca conseguiria imaginar que poderia ficar tão <mark>perfeito</mark>. Obrigada. Muito obrigada.</q></p>
-                </article>
-            </div>
-        </div>
-        <hr>
-        <div class="container">
-            <div class="container-text">
+            <div class="container-text fade-in-right">
                 <h2>Lorem Ipsum</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos adipisci esse nihil magni error ipsam eaque incidunt, reprehenderit voluptates hic repudiandae voluptatem libero excepturi nostrum corrupti cumque at accusamus assumenda.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque quo id quia deleniti hic soluta doloribus esse, unde illum ullam laborum sed architecto quidem quis voluptate. Vel, eius esse.</p>
             </div>
-            <div class="container-image">
+        </div>
+        <hr>
+        <div class="container">
+            <div class="container-text fade-in-left">
+                <h2>Feedbacks<br>★ ★ ★ ★ ★</h2>
+                <article>
+                    <p><q><abbr title="Você é a melhor!">You're the <mark>best</mark>!</abbr></q></p>
+                    <p><q>Dos 3 projetos que fiz com você, eu e meu marido amamos demais, tudo feito com muito carinho e dedicação, não tem nem palavras pra escrever o quão <mark>bem feito</mark> estava todos os projetos, exatamente idênticos aos ambiedntes e na versão decoradora e melhorada, fiquei encantada.</q></p>
+                    <p><q>Nossa gostei demais, nunca conseguiria imaginar que poderia ficar tão <mark>perfeito</mark>. Obrigada. Muito obrigada.</q></p>
+                </article>
+            </div>
+            <div class="container-image fade-in-right">
                 <a href="https://www.behance.net/gallery/199247619/ARCHVIZ-Living-Urban-Square" target="_blank">
                     <img src="assets/images/polaroid3.png" class="polaroid" alt="Living urban Square">
                 </a>

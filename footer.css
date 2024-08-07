@@ -1,6 +1,8 @@
 footer {
     padding: 1px;background-image: linear-gradient(to top, #717171, #B1B1B1);
     color: #343434;
+    
+    background-image: url("assets/images/ambientes/textura-madeira.jpg");
 }
 
 footer > p {

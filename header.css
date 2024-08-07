@@ -5,9 +5,10 @@
     left: 0;
     width: 100%;
     height: 475px;
-    background-image: url("assets/images/ambientes/sala2.png");
+    background-image: url("assets/images/ambientes/sala-header.png");
     background-size: cover;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+}
 
 .logo {
     border-radius: 25%;
@@ -20,18 +21,17 @@ header p {
 
 header nav {
     text-align: center;
-    margin-top: -16px;
-    padding-top: 15px;
     backdrop-filter: blur(4px);
 }
 
 header div {
     margin-top: 5px;
-    backdrop-filter: blur(2px);
+
     padding-bottom: 15px;
+    backdrop-filter: blur(2px);
     background-color: rgba(255, 255, 255, 0.438);
     
-    margin-left: -40px;
+    margin-left: -45px;
 }
 
 header li {
@@ -52,7 +52,7 @@ header li a {
 }
 
 header li a:hover {
-    /* text-decoration: underline; */
+    text-decoration: none;
     font-weight: bold;
     font-size: large;
 
