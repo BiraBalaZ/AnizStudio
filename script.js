@@ -1,5 +1,6 @@
 // Seleciona o botão
 var backToTopBtn = document.getElementById("backToTopBtn");
+backToTopBtn.style.display = "none";
 
 // Mostra o botão quando o usuário rolar 20px para baixo
 window.onscroll = function() {scrollFunction()};
