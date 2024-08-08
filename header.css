@@ -13,10 +13,7 @@
 .logo {
     border-radius: 25%;
     box-shadow: 0 0 20px rgb(245, 245, 244);
-}
-
-header p {
-    text-align: center;
+    margin-right: 35px;
 }
 
 header nav {
@@ -37,9 +34,10 @@ header div {
 header li {
     display: inline-block;
     margin-top: 15px;
-    margin-left: 45px;
+    margin-left: 10px;
     margin-right: 10px;
     font-weight: 800;
+    
 }
 
 header li a {
