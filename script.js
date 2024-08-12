@@ -29,7 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
         function handleAnimation(entries, observer) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.opacity = 1;
+                    entry.target.classList.add('in-view');
+                } else {
+                    entry.target.classList.remove('in-view');
                 }
             });
         }

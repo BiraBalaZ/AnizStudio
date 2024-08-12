@@ -36,14 +36,21 @@
             }
         }
 
-        /* Classe de animação */
-        .fade-in-left {
+        /* Classe base para elementos fora de vista */
+        .fade-in-left, .fade-in-right {
             opacity: 0;
+            visibility: hidden;
+            transition: opacity 1.5s ease, transform 1.5s ease;
+        }
+
+        /* Animação quando o elemento está na viewport */
+        .fade-in-left.in-view {
+            visibility: visible;
             animation: fadeInLeft 1.5s forwards;
         }
 
-        .fade-in-right {
-            opacity: 0;
+        .fade-in-right.in-view {
+            visibility: visible;
             animation: fadeInRight 1.5s forwards;
         }
     </style>
