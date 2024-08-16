@@ -1,17 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
-/* font-family: "Dancing Script", cursive; */
 
-@font-face {
-    font-family: 'Faktum';
-    src: url('assets/fonts/Faktum2.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Faktum', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     background-color: #E3E3E3;
     margin: 0;
     padding: 0;
@@ -80,6 +75,19 @@ mark {
     height: auto;
     
     margin-left: 35px;
+}
+
+.topics {
+    text-align: left;
+    line-height: 50px;
+}
+
+li.number {
+    list-style: decimal;
+}
+
+ul.topics p {
+    font-size: medium;
 }
 
 @media (max-width: 768px) {

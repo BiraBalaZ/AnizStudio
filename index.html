@@ -12,54 +12,14 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="whatsapp.css">
     <link rel="stylesheet" href="back-to-top.css">
+    <link rel="stylesheet" href="animations.css">
     <title>Aniz Studio</title>
-    <style>
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-200px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(200px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        /* Classe base para elementos fora de vista */
-        .fade-in-left, .fade-in-right {
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 1.5s ease, transform 1.5s ease;
-        }
-
-        /* Animação quando o elemento está na viewport */
-        .fade-in-left.in-view {
-            visibility: visible;
-            animation: fadeInLeft 1.5s forwards;
-        }
-
-        .fade-in-right.in-view {
-            visibility: visible;
-            animation: fadeInRight 1.5s forwards;
-        }
-    </style>
 </head>
 <body>
     <header class="background-image">
         <nav>
             <ul>
-                <a href="https://www.behance.net/anizstudio"><img src="assets/images/logo.jpeg" width="125px" class="logo" alt=""></a><br>
+                <a href="https://www.behance.net/anizstudio"><img src="assets/images/logo.jpeg" width="125px" class="logo" alt=""></a>
                 <div>
                     <li><a href="https://www.instagram.com/_anizstudio">Instagram</a></li>
                     <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=contatoanizstudio@gmail.com">E-Mail</a></li>
@@ -71,7 +31,7 @@
     <main>
         <button class="back-to-top" id="backToTopBtn">^</button>
         <a href="https://api.whatsapp.com/send?phone=5511942359299" class="whatsapp-button" target="_blank" title="Contate-me no WhatsApp">
-            <img src="assets/images/whatsapp-logo.png" alt="">
+            <img src="assets/images/whatsapp-logo.png" alt="Ícone do WhatsApp em Branco">
         </a>
 
         <div class="container">
@@ -94,9 +54,15 @@
                 </a>
             </div>
             <div class="container-text fade-in-right">
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos adipisci esse nihil magni error ipsam eaque incidunt, reprehenderit voluptates hic repudiandae voluptatem libero excepturi nostrum corrupti cumque at accusamus assumenda.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque quo id quia deleniti hic soluta doloribus esse, unde illum ullam laborum sed architecto quidem quis voluptate. Vel, eius esse.</p>
+                <h2>Comigo você tem:</h2>
+                <ul class="topics">
+                    <li class="number"><b>Proteção Completa para o Seu Projeto</b></li>
+                    <p>Garanta a segurança e confidencialidade de cada detalhe, do início ao fim.</p>
+                    <li class="number"><b>Atendimento Personalizado e Humanizado</b></li>
+                    <p>Experimente um atendimento que entende suas necessidades e oferece suporte dedicado em todas as etapas.</p>
+                    <li class="number"><b>Criação Imersiva em 3D e 2D</b></li>
+                    <p>Transforme suas ideias em realidade com modelos precisos e detalhados em 3D e 2D.</p>
+                </ul>
             </div>
         </div>
         <hr>
